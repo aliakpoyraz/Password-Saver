@@ -71,7 +71,7 @@ int main() {
                 while (getline(readPass, line)) {
                     if (line.find(searchKeyword) != string::npos && line != "<<<<< PASSWORD SAVER >>>>>") {
                         cout << "Matching line found: " << line << endl;
-                        found = true;
+                        found = true; 
                     }
                 }
                 if (!found) {
